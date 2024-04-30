@@ -1,0 +1,87 @@
+/* main  */
+
+#main-container {
+    /* background-color: #448ef6; */
+    height: 100vh;
+    padding-inline: 35px;
+    margin: 0;
+    color:#7b6ffb;
+}
+
+.main-container-children {
+    margin-block: 25px;
+}
+
+.main-container-children-title {
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.main-container-yourworkflow-box-container {
+    display: flex;
+    column-gap: 30px;
+    flex-wrap: wrap;
+    row-gap: 12px;
+}
+
+.main-container-yourworkflow-box-children {
+    height: 205px;
+    width: 310px;
+    border: 1px solid #edebeb;
+    margin-block: 15px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.main-container-yourworkflow-box-children:hover {
+    box-shadow: 1px 1px 10px #edebeb;
+    transition-duration: 0.5s;
+}
+
+.main-container-yourworkflow-box-children-create {
+    display: flex;
+    align-items: center;
+    height: 20px;
+    padding-top: 20px;
+    column-gap: 8px;
+}
+
+.main-container-yourworkflow-box-children-child {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: black;
+}
+
+.main-container-yourworkflow-box-children-plus {
+    font-size: 1.25rem;
+}
+
+
+.main-container-yourworkflow-box-children-text-title {
+    font-size: 1.5rem;
+    color: black;
+}
+
+.main-container-yourworkflow-box-children-text-subtitle {
+    font-size: 1.25rem;
+}
+
+.main-container-yourworkflow-box-children-text-paragraph {
+    font-size: 14px;
+    color: gray;
+    padding-top: 6px;
+}
+
+
+.main-container-yourworkflow-box-children-svg {
+    fill: gray;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+
+
